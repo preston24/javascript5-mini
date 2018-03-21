@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function Movie() {
+export function Movie({ movie }) {
   return (
       <p>{movie}</p>
   )  
